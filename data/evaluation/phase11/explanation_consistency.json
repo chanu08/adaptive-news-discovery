@@ -1,0 +1,8 @@
+{
+  "total_explanations_evaluated": 500,
+  "consistent_explanations": 500,
+  "consistency_rate": 1.0,
+  "no_explanation_suppression_verified": true,
+  "violations_count": 0,
+  "description": "System-grounded consistency check: verifies that explanations reflect actual metadata, signal thresholds, drift status, and MMR rank shifts."
+}

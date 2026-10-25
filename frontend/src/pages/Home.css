@@ -1,0 +1,172 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 24px 80px;
+  gap: 56px;
+}
+
+/* ── Hero ───────────────────────────────────────────────────────── */
+.home__hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 680px;
+  gap: 16px;
+}
+
+.home__hero-badge {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #818cf8;
+  background: rgba(99,102,241,0.12);
+  border: 1px solid rgba(99,102,241,0.25);
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.home__title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  background: linear-gradient(135deg, #f1f5f9 0%, #818cf8 50%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.home__tagline {
+  font-size: 1.05rem;
+  color: #94a3b8;
+  margin: 0;
+  font-weight: 400;
+}
+
+.home__description {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.7;
+  max-width: 580px;
+  margin: 0;
+}
+
+.home__description strong {
+  color: #94a3b8;
+}
+
+/* ── Status row ─────────────────────────────────────────────────── */
+.home__status-row {
+  margin-top: 8px;
+}
+
+/* ── Connected / Error details ──────────────────────────────────── */
+.home__connected-detail,
+.home__error-detail {
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 12px;
+  max-width: 480px;
+}
+
+.home__connected-detail {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  color: #6ee7b7;
+}
+
+.home__connected-detail code {
+  background: rgba(255,255,255,0.08);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
+.home__connected-meta {
+  margin-top: 4px;
+  opacity: 0.7;
+}
+
+.home__error-detail {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+}
+
+.home__error-detail pre {
+  background: rgba(0,0,0,0.3);
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  overflow-x: auto;
+  margin-top: 8px;
+  color: #fcd34d;
+}
+
+/* ── Content section ────────────────────────────────────────────── */
+.home__content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* ── Info cards ─────────────────────────────────────────────────── */
+.home__info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+  min-width: 260px;
+  max-width: 360px;
+}
+
+.info-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 20px 22px;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.info-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99,102,241,0.3);
+  box-shadow: 0 8px 32px rgba(99,102,241,0.1);
+}
+
+.info-card__icon {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.info-card h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin: 0 0 6px 0;
+}
+
+.info-card p {
+  font-size: 0.82rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Responsive ─────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .home {
+    padding: 32px 16px 60px;
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "Popularity": {
+    "valid_count": 100,
+    "skip_count": 0,
+    "coverage": 0.00018,
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.991763,
+        "median": 0.990874,
+        "std": 0.002084,
+        "ci_lower": 0.991392,
+        "ci_upper": 0.992222,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 6.91,
+        "median": 7.0,
+        "std": 0.320826,
+        "ci_lower": 6.85,
+        "ci_upper": 6.96,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 8.81,
+        "median": 9.0,
+        "std": 0.394277,
+        "ci_lower": 8.73,
+        "ci_upper": 8.88,
+        "n": 100
+      }
+    }
+  },
+  "Long-term only": {
+    "valid_count": 100,
+    "skip_count": 0,
+    "coverage": 0.010844,
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.001,
+        "median": 0.0,
+        "std": 0.01,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.005,
+        "median": 0.0,
+        "std": 0.05,
+        "ci_lower": 0.0,
+        "ci_upper": 0.015,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.001772,
+        "median": 0.0,
+        "std": 0.017724,
+        "ci_lower": 0.0,
+        "ci_upper": 0.005317,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.01,
+        "median": 0.0,
+        "std": 0.1,
+        "ci_lower": 0.0,
+        "ci_upper": 0.03,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.716469,
+        "median": 0.756765,
+        "std": 0.185709,
+        "ci_lower": 0.677281,
+        "ci_upper": 0.75104,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 2.71,
+        "median": 2.0,
+        "std": 1.401983,
+        "ci_lower": 2.43,
+        "ci_upper": 2.98025,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 4.04,
+        "median": 4.0,
+        "std": 2.112589,
+        "ci_lower": 3.63975,
+        "ci_upper": 4.47,
+        "n": 100
+      }
+    }
+  },
+  "Recent only": {
+    "valid_count": 100,
+    "skip_count": 0,
+    "coverage": 0.011038,
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.742857,
+        "median": 0.79824,
+        "std": 0.181116,
+        "ci_lower": 0.705549,
+        "ci_upper": 0.774657,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 3.14,
+        "median": 3.0,
+        "std": 1.497608,
+        "ci_lower": 2.85,
+        "ci_upper": 3.42,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 4.59,
+        "median": 4.5,
+        "std": 2.132457,
+        "ci_lower": 4.18975,
+        "ci_upper": 4.99,
+        "n": 100
+      }
+    }
+  },
+  "Cosine full profile": {
+    "valid_count": 100,
+    "skip_count": 0,
+    "coverage": 0.010802,
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.714623,
+        "median": 0.751863,
+        "std": 0.182239,
+        "ci_lower": 0.677401,
+        "ci_upper": 0.749132,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 2.71,
+        "median": 2.0,
+        "std": 1.423433,
+        "ci_lower": 2.42975,
+        "ci_upper": 2.98025,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 4.04,
+        "median": 4.0,
+        "std": 2.069109,
+        "ci_lower": 3.63,
+        "ci_upper": 4.47,
+        "n": 100
+      }
+    }
+  },
+  "Full system (+MMR)": {
+    "valid_count": 100,
+    "skip_count": 0,
+    "coverage": 0.011885,
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.001,
+        "median": 0.0,
+        "std": 0.01,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.005,
+        "median": 0.0,
+        "std": 0.05,
+        "ci_lower": 0.0,
+        "ci_upper": 0.015,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.002044,
+        "median": 0.0,
+        "std": 0.020438,
+        "ci_lower": 0.0,
+        "ci_upper": 0.006131,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.01,
+        "median": 0.0,
+        "std": 0.1,
+        "ci_lower": 0.0,
+        "ci_upper": 0.03,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.917961,
+        "median": 0.957736,
+        "std": 0.117161,
+        "ci_lower": 0.893358,
+        "ci_upper": 0.937394,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 4.09,
+        "median": 4.0,
+        "std": 1.712078,
+        "ci_lower": 3.74975,
+        "ci_upper": 4.40025,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 6.04,
+        "median": 6.0,
+        "std": 2.192365,
+        "ci_lower": 5.59,
+        "ci_upper": 6.45,
+        "n": 100
+      }
+    }
+  }
+}

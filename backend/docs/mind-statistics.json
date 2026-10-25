@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-09-28T07:29:46.170894",
+  "news": {
+    "total_articles": 130379,
+    "unique_categories": 18,
+    "articles_per_category": {
+      "sports": 41170,
+      "news": 39649,
+      "finance": 7557,
+      "travel": 6473,
+      "video": 6178,
+      "lifestyle": 5687,
+      "foodanddrink": 5592,
+      "weather": 5225,
+      "autos": 3769,
+      "health": 3601,
+      "music": 1693,
+      "tv": 1638,
+      "movies": 1015,
+      "entertainment": 995,
+      "kids": 133,
+      "middleeast": 2,
+      "games": 1,
+      "northamerica": 1
+    },
+    "articles_per_split": {
+      "dev": 72023,
+      "test": 120961,
+      "train": 101527
+    },
+    "articles_with_abstract": 123130,
+    "articles_without_abstract": 7249,
+    "articles_with_url": 130379,
+    "articles_without_url": 0,
+    "date_ingested_from": "2026-09-25 08:36:17",
+    "date_ingested_to": "2026-09-25 10:27:41"
+  },
+  "users": {
+    "total_users": 876956,
+    "users_with_clicks": 0,
+    "users_without_clicks": 876956,
+    "avg_clicks_per_user": 0.0,
+    "min_clicks": 0,
+    "max_clicks": 0,
+    "avg_impressions_per_user": 0.0
+  },
+  "behaviors": {
+    "total_behavior_logs": 4979946,
+    "total_impression_items": 190707932,
+    "total_clicks": 3958501,
+    "total_non_clicks": 186749431,
+    "click_through_rate": 0.0208,
+    "behavior_logs_per_split": {
+      "dev": 376471,
+      "test": 2370727,
+      "train": 2232748
+    },
+    "earliest_timestamp": "11/10/2019 10:00:00 AM",
+    "latest_timestamp": "11/9/2019 9:59:59 PM",
+    "avg_impressions_per_log": 38.3,
+    "avg_clicks_per_log": 0.79,
+    "avg_history_length": 37.06
+  },
+  "relationships": {
+    "articles_with_impressions": 54581,
+    "articles_without_impressions": 75798,
+    "orphan_impression_article_ids": 0,
+    "ingestion_runs": 0,
+    "last_ingestion_status": null,
+    "last_ingestion_at": null
+  }
+}

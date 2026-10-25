@@ -1,0 +1,446 @@
+{
+  "1.0": {
+    "lambda": 1.0,
+    "valid_count": 100,
+    "coverage": 0.011024,
+    "overlap_with_lambda_1_0": {
+      "mean": 1.0,
+      "median": 1.0,
+      "std": 0.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "n": 100
+    },
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.732997,
+        "median": 0.783006,
+        "std": 0.18563,
+        "ci_lower": 0.696599,
+        "ci_upper": 0.765751,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 2.95,
+        "median": 3.0,
+        "std": 1.380784,
+        "ci_lower": 2.68975,
+        "ci_upper": 3.2,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 4.37,
+        "median": 4.0,
+        "std": 2.053108,
+        "ci_lower": 3.97,
+        "ci_upper": 4.8,
+        "n": 100
+      },
+      "average_pairwise_similarity_at_10": {
+        "mean": 0.267003,
+        "median": 0.216994,
+        "std": 0.18563,
+        "ci_lower": 0.234249,
+        "ci_upper": 0.303401,
+        "n": 100
+      }
+    }
+  },
+  "0.8": {
+    "lambda": 0.8,
+    "valid_count": 100,
+    "coverage": 0.011524,
+    "overlap_with_lambda_1_0": {
+      "mean": 0.340887,
+      "median": 0.333333,
+      "std": 0.150181,
+      "ci_lower": 0.311557,
+      "ci_upper": 0.37043,
+      "n": 100
+    },
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.002,
+        "median": 0.0,
+        "std": 0.02,
+        "ci_lower": 0.0,
+        "ci_upper": 0.006,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.005,
+        "median": 0.0,
+        "std": 0.05,
+        "ci_lower": 0.0,
+        "ci_upper": 0.015,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.002641,
+        "median": 0.0,
+        "std": 0.026407,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007922,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.01,
+        "median": 0.0,
+        "std": 0.1,
+        "ci_lower": 0.0,
+        "ci_upper": 0.03,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.001,
+        "median": 0.0,
+        "std": 0.01,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.005,
+        "median": 0.0,
+        "std": 0.05,
+        "ci_lower": 0.0,
+        "ci_upper": 0.015,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.002641,
+        "median": 0.0,
+        "std": 0.026407,
+        "ci_lower": 0.0,
+        "ci_upper": 0.007922,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.01,
+        "median": 0.0,
+        "std": 0.1,
+        "ci_lower": 0.0,
+        "ci_upper": 0.03,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.89996,
+        "median": 0.946498,
+        "std": 0.123371,
+        "ci_lower": 0.874736,
+        "ci_upper": 0.921203,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 4.01,
+        "median": 4.0,
+        "std": 1.714437,
+        "ci_lower": 3.67,
+        "ci_upper": 4.35,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 6.01,
+        "median": 6.0,
+        "std": 2.190406,
+        "ci_lower": 5.59,
+        "ci_upper": 6.42,
+        "n": 100
+      },
+      "average_pairwise_similarity_at_10": {
+        "mean": 0.10004,
+        "median": 0.053502,
+        "std": 0.123371,
+        "ci_lower": 0.078797,
+        "ci_upper": 0.125264,
+        "n": 100
+      }
+    }
+  },
+  "0.7": {
+    "lambda": 0.7,
+    "valid_count": 100,
+    "coverage": 0.011885,
+    "overlap_with_lambda_1_0": {
+      "mean": 0.238853,
+      "median": 0.25,
+      "std": 0.111215,
+      "ci_lower": 0.216279,
+      "ci_upper": 0.260894,
+      "n": 100
+    },
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.001,
+        "median": 0.0,
+        "std": 0.01,
+        "ci_lower": 0.0,
+        "ci_upper": 0.003,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.005,
+        "median": 0.0,
+        "std": 0.05,
+        "ci_lower": 0.0,
+        "ci_upper": 0.015,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.002044,
+        "median": 0.0,
+        "std": 0.020438,
+        "ci_lower": 0.0,
+        "ci_upper": 0.006131,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.01,
+        "median": 0.0,
+        "std": 0.1,
+        "ci_lower": 0.0,
+        "ci_upper": 0.03,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.917961,
+        "median": 0.957736,
+        "std": 0.117161,
+        "ci_lower": 0.893358,
+        "ci_upper": 0.937394,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 4.09,
+        "median": 4.0,
+        "std": 1.712078,
+        "ci_lower": 3.74975,
+        "ci_upper": 4.40025,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 6.04,
+        "median": 6.0,
+        "std": 2.192365,
+        "ci_lower": 5.59,
+        "ci_upper": 6.45,
+        "n": 100
+      },
+      "average_pairwise_similarity_at_10": {
+        "mean": 0.082039,
+        "median": 0.042264,
+        "std": 0.117161,
+        "ci_lower": 0.062606,
+        "ci_upper": 0.106642,
+        "n": 100
+      }
+    }
+  },
+  "0.5": {
+    "lambda": 0.5,
+    "valid_count": 100,
+    "coverage": 0.011899,
+    "overlap_with_lambda_1_0": {
+      "mean": 0.179385,
+      "median": 0.176471,
+      "std": 0.092647,
+      "ci_lower": 0.161606,
+      "ci_upper": 0.197151,
+      "n": 100
+    },
+    "metrics": {
+      "p_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_5": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "p_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "r_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ndcg_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "hit_rate_at_10": {
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "ci_lower": 0.0,
+        "ci_upper": 0.0,
+        "n": 100
+      },
+      "ild_at_10": {
+        "mean": 0.926437,
+        "median": 0.960718,
+        "std": 0.104323,
+        "ci_lower": 0.905129,
+        "ci_upper": 0.944497,
+        "n": 100
+      },
+      "category_diversity_at_10": {
+        "mean": 4.12,
+        "median": 4.0,
+        "std": 1.753957,
+        "ci_lower": 3.77,
+        "ci_upper": 4.45,
+        "n": 100
+      },
+      "subcategory_diversity_at_10": {
+        "mean": 6.11,
+        "median": 6.0,
+        "std": 2.300176,
+        "ci_lower": 5.66975,
+        "ci_upper": 6.56,
+        "n": 100
+      },
+      "average_pairwise_similarity_at_10": {
+        "mean": 0.073563,
+        "median": 0.039282,
+        "std": 0.104323,
+        "ci_lower": 0.055503,
+        "ci_upper": 0.094871,
+        "n": 100
+      }
+    }
+  }
+}

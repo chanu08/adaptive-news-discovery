@@ -1,0 +1,110 @@
+.arch {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 32px;
+  max-width: 460px;
+  width: 100%;
+}
+
+.arch__title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin: 0 0 4px 0;
+}
+
+.arch__subtitle {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin: 0 0 24px 0;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* ── Pipeline container ───────────────────────────────────────── */
+.arch__pipeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+/* ── Individual step ──────────────────────────────────────────── */
+.arch__step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.07);
+  width: 100%;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.arch__step:hover {
+  transform: translateY(-1px);
+}
+
+.arch__step--active {
+  background: linear-gradient(135deg, rgba(99,102,241,0.25), rgba(139,92,246,0.15));
+  border-color: rgba(139,92,246,0.4);
+  box-shadow: 0 0 20px rgba(99,102,241,0.2);
+}
+
+.arch__step--upcoming {
+  background: rgba(255,255,255,0.02);
+  opacity: 0.6;
+}
+
+.arch__step--branch {
+  width: auto;
+  flex: 1;
+  min-width: 0;
+}
+
+.arch__icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+
+.arch__label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+/* ── Phase badge ──────────────────────────────────────────────── */
+.arch__phase-badge {
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(100,116,139,0.2);
+  color: #64748b;
+  letter-spacing: 0.04em;
+}
+
+.arch__phase-badge--current {
+  background: rgba(99,102,241,0.3);
+  color: #a5b4fc;
+}
+
+/* ── Arrow connector ──────────────────────────────────────────── */
+.arch__arrow {
+  position: absolute;
+  bottom: -18px;
+  font-size: 1rem;
+  color: #334155;
+  z-index: 1;
+}
+
+/* ── Split row ────────────────────────────────────────────────── */
+.arch__split {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  margin: 2px 0;
+}

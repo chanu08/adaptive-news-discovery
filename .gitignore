@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / Secrets
+.env
+*.env
+*.env.local
+# specific env files
+*.env.local
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+backend/data/*.db
+backend/test.db
+data/*.db
+data/mind_oltp.db
+
+# MIND Dataset & Large Raw Files
+data/raw/
+data/extracted/
+data/processed/
+data/indices/
+
+# Backend large data artifacts & vectors
+backend/data/news_discovery.db
+backend/data/processed/
+backend/data/evaluation/phase15/raw_session_results.jsonl
+*.jsonl
+*.npz
+*.joblib
+*.vec
+*.zip
+*.tar.gz
+*.gz
+
+# Allow documentation, evaluation summaries, and figures
+!data/README.md
+!data/evaluation/**
+!backend/data/evaluation/**/metrics*.txt
+!backend/data/evaluation/**/*.png
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.cache/
+*.local
+
+# Misc
+*.bak
+*.tmp 
+# Exclude academic_report from git
+academic_report/

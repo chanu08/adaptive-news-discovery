@@ -1,0 +1,12 @@
+{
+  "total_dev_users": 255990,
+  "eligible_users": 216778,
+  "sampled_users": 100,
+  "excluded_users": 39212,
+  "exclusion_reasons": {
+    "no_train_history": 39212,
+    "no_dev_clicks": 0
+  },
+  "seed": 42,
+  "split": "dev"
+}

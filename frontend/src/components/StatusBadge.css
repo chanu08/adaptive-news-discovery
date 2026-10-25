@@ -1,0 +1,66 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ── Dot ──────────────────────────────────────────────────────── */
+.status-badge__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── States ───────────────────────────────────────────────────── */
+.status-badge--loading {
+  background: rgba(100, 116, 139, 0.2);
+  color: #94a3b8;
+}
+.status-badge--loading .status-badge__dot {
+  background: #64748b;
+  animation: pulse-dot 1.2s ease-in-out infinite;
+}
+
+.status-badge--connected {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border-color: rgba(52, 211, 153, 0.3);
+}
+.status-badge--connected .status-badge__dot {
+  background: #10b981;
+  box-shadow: 0 0 6px #10b981;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.status-badge--error {
+  background: rgba(239, 68, 68, 0.15);
+  color: #f87171;
+  border-color: rgba(248, 113, 113, 0.3);
+}
+.status-badge--error .status-badge__dot {
+  background: #ef4444;
+}
+
+/* ── Meta / Error text ────────────────────────────────────────── */
+.status-badge__meta {
+  opacity: 0.65;
+  font-size: 0.75rem;
+}
+.status-badge__error {
+  opacity: 0.8;
+  font-size: 0.75rem;
+}
+
+/* ── Animation ────────────────────────────────────────────────── */
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.85); }
+}

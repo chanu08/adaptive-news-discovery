@@ -1,0 +1,66 @@
+{
+  "database_path": "E:\\SEM-5\\IIR\\mini\\adaptive-news-discovery\\backend\\data\\news_discovery.db",
+  "total_canonical_articles": 130379,
+  "total_mind_users": 876956,
+  "behavior_logs_by_split": {
+    "dev": {
+      "count": 376471,
+      "min_time": "11/15/2019 10:00:00 AM",
+      "max_time": "11/15/2019 9:59:59 PM",
+      "total_clicks": 574845,
+      "total_impressions": 14085557,
+      "unique_users": 255990
+    },
+    "test": {
+      "count": 2370727,
+      "min_time": "11/16/2019 10:00:00 AM",
+      "max_time": "11/22/2019 9:59:59 PM",
+      "total_clicks": 0,
+      "total_impressions": 93115001,
+      "unique_users": 702005
+    },
+    "train": {
+      "count": 2232748,
+      "min_time": "11/10/2019 10:00:00 AM",
+      "max_time": "11/9/2019 9:59:59 PM",
+      "total_clicks": 3383656,
+      "total_impressions": 83507374,
+      "unique_users": 711222
+    }
+  },
+  "impression_items_by_split": {
+    "dev": {
+      "count": 14085557,
+      "total_clicks": 574845
+    },
+    "test": {
+      "count": 93115001,
+      "total_clicks": 0
+    },
+    "train": {
+      "count": 83507374,
+      "total_clicks": 3383656
+    }
+  },
+  "article_splits": {
+    "dev": {
+      "count": 72023,
+      "distinct_articles": 72023
+    },
+    "test": {
+      "count": 120961,
+      "distinct_articles": 120961
+    },
+    "train": {
+      "count": 101527,
+      "distinct_articles": 101527
+    }
+  },
+  "test_split_labeled": false,
+  "test_split_statement": "Test split is not suitable for direct labeled offline ranking metrics because click labels are unavailable.",
+  "timestamp_availability": {
+    "behavior_logs": "Behavior impression timestamps available as 'MM/DD/YYYY HH:MM:SS AM/PM' string.",
+    "history_field": "Historical clicks stored as space-delimited string of article IDs without individual click timestamps.",
+    "leakage_safeguard": "Training clicks reconstructed strictly from train split; dev clicks strictly held-out as evaluation targets."
+  }
+}

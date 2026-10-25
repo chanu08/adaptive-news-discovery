@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-27 09:25:18 UTC",
+  "total_runtime_sec": 675.7,
+  "total_experiment_time_sec": 655.69,
+  "users_processed": 100,
+  "avg_rec_latency_ms": 1311.38,
+  "median_rec_latency_ms": 331.01,
+  "mean_retrieval_ms": 412.75,
+  "mean_mmr_ms": 331.01,
+  "explanation_check_time_sec": 40.83,
+  "feedback_simulation_time_sec": 50.55
+}

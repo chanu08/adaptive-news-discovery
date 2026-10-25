@@ -1,0 +1,32 @@
+{
+  "behavior_logs": {
+    "before": 4979946,
+    "after": 4979946,
+    "diff": 0,
+    "status": "PASS"
+  },
+  "impression_items": {
+    "before": 190707932,
+    "after": 190707932,
+    "diff": 0,
+    "status": "PASS"
+  },
+  "news_articles": {
+    "before": 130379,
+    "after": 130379,
+    "diff": 0,
+    "status": "PASS"
+  },
+  "article_splits": {
+    "before": 294511,
+    "after": 294511,
+    "diff": 0,
+    "status": "PASS"
+  },
+  "feedback_events": {
+    "before": 18,
+    "after": 18,
+    "diff": 0,
+    "status": "PASS"
+  }
+}

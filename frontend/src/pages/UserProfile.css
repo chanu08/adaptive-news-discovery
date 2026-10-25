@@ -1,0 +1,338 @@
+.user-profile-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.search-section {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-form input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: var(--input-bg, #fff);
+  color: var(--text-color, #333);
+}
+
+.search-form button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color, #007bff);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.search-form button:hover:not(:disabled) {
+  background-color: var(--primary-hover, #0056b3);
+}
+
+.search-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  margin-top: 1rem;
+  color: #d32f2f;
+  font-weight: 500;
+}
+
+.profiles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .profiles-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-card {
+  background-color: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 4px solid var(--primary-color, #007bff);
+}
+
+.profile-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  color: var(--primary-color, #007bff);
+}
+
+.updated-time {
+  font-size: 0.85rem;
+  color: var(--text-muted, #666);
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.features-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature-column h4 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-color, #eee);
+  padding-bottom: 0.5rem;
+}
+
+.feature-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-column li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color, #f5f5f5);
+}
+
+.feature-column li:last-child {
+  border-bottom: none;
+}
+
+.feature-name {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.feature-weight {
+  font-family: monospace;
+  background-color: var(--badge-bg, #e9ecef);
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.profile-info-panel {
+  grid-column: 1 / -1;
+  background-color: var(--info-bg, #e3f2fd);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #1976d2;
+  margin-top: 1rem;
+}
+
+.profile-info-panel h4 {
+  margin-top: 0;
+  color: #1565c0;
+}
+
+.profile-info-panel ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+
+/* Drift Card Styles */
+.drift-card {
+  grid-column: 1 / -1;
+  background-color: var(--card-bg, #fff);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+  border-left: 5px solid #8b5cf6;
+}
+
+.drift-metrics {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.metric-box h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: var(--text-muted, #666);
+  text-transform: uppercase;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8b5cf6;
+}
+
+.evidence-adequate { color: #10b981; }
+.evidence-limited { color: #f59e0b; }
+.evidence-insufficient { color: #ef4444; }
+
+.drift-evidence-stats {
+  display: flex;
+  gap: 1.5rem;
+  background: var(--info-bg, #f8fafc);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.drift-evidence-stats p {
+  margin: 0;
+}
+
+.drift-lists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.drift-column h4 {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color, #eee);
+}
+
+.drift-column.emerging h4 { color: #10b981; }
+.drift-column.declining h4 { color: #ef4444; }
+.drift-column.stable h4 { color: #6366f1; }
+
+.drift-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.drift-column li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color, #f5f5f5);
+  font-size: 0.95rem;
+}
+
+.drift-column li span {
+  font-family: monospace;
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+.candidates-card {
+  background: var(--surface-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-left: 4px solid #10b981;
+}
+
+.candidates-card h3 {
+  margin-top: 0;
+  color: #10b981;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.cand-controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.cand-controls label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  gap: 0.25rem;
+}
+
+.cand-controls input, .cand-controls select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: var(--text-color);
+}
+
+.cand-controls button {
+  background: #10b981;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  height: 38px;
+}
+
+.cand-controls button:hover:not(:disabled) {
+  background: #0ea5e9;
+}
+
+.cand-controls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cand-meta {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 0.75rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.cand-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.cand-table th {
+  text-align: left;
+  padding: 0.75rem;
+  border-bottom: 2px solid rgba(255,255,255,0.1);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.cand-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.cand-sim {
+  font-family: monospace;
+  color: #10b981;
+  font-weight: bold;
+}

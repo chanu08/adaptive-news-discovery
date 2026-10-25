@@ -1,0 +1,9 @@
+{
+  "simulation_type": "Controlled adaptive simulation (in-memory, read-only)",
+  "evaluated_users": 30,
+  "mean_vector_shift": 0.291031,
+  "mean_list_jaccard_overlap": 0.293545,
+  "mean_target_category_count_delta": 1.4667,
+  "database_written": false,
+  "notes": "Verified zero database mutations. Demonstrates responsive adaptation to newly introduced interactions without modifying persistent MIND records."
+}
